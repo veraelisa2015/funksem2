@@ -35,7 +35,7 @@ public class Klassenbuch {
 
 			while (fileScanner.hasNextLine()) {
 				s = fileScanner.nextLine();
-				// System.out.println(s);
+				// System.out.println(s);  new line have to be
 				sb.append(s + "\n");
 
 			}
