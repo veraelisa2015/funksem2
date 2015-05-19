@@ -16,7 +16,10 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Klassenbuch {
-
+	/**
+	 * Creating of ArrayLists to save the datasets from the different users.
+	 * 
+	 */
 	ArrayList<String> KlassenArray = new ArrayList<String>();
 	ArrayList<String> SchuelerArray = new ArrayList<String>();
 	ArrayList<klasse> dieKlassen = new ArrayList<klasse>();
@@ -29,7 +32,14 @@ public class Klassenbuch {
 	}
 
 	private void ReadData() {
-
+/**
+ * Trying to read the infomations of the text file student.txt.
+ * 
+ * @param myfile The File that would be read.
+ * @param filescanner Is a scanner to read the text file.
+ * @param helper[i] A helper array to find positions in the ArrayList.
+ * @param k New object to bring informations from the text file.
+ */
 		try {
 
 			StringBuilder sb = new StringBuilder();
@@ -86,6 +96,13 @@ public class Klassenbuch {
 	}
 
 	public void eintragzuOrdnen() {
+				/**
+		 * Trying to read the informations of the text file register.txt.
+		 * Every entry will assingned to a register.
+		 * 
+		 * @param myRegister The file that would be read.
+		 * 
+		 */
 		File myRegister = new File(
 				"/Users/Patrice/Documents/workspace/funk/src/funkTest/register.txt");
 		Scanner fileScanner;
