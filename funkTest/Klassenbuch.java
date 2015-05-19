@@ -1,5 +1,14 @@
 package funkTest;
-
+/**
+ * Class to read the datasets and assigning them.
+ * 
+ * @author Vera Gögelein 9267625
+ * @author Simon Bayer 5601000
+ * @author Robert Leipelt 9469264
+ * @author Patrice Bender 1176484
+ *
+ *@version 1.0
+ */
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
